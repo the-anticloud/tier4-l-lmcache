@@ -1,0 +1,28 @@
+{
+  "benchmark": "MLPerf_Lab_Results",
+  "project": "L_LMCACHE",
+  "tier": "TIER_4_INFERENCE_AGENTS",
+  "slug": "LMCache/LMCache",
+  "commit": "0f166d0bcf5e",
+  "run_timestamp": "2026-09-30T15:11:19.033679+00:00",
+  "isolation": {
+    "environment": "local",
+    "model": "distilbert-base-uncased",
+    "hf_load_time_sec": 2.96,
+    "platform": "win32",
+    "python": "3.12.10"
+  },
+  "results": {
+    "framework": "MLPerf Inference v5.1 (MLCommons) \u2014 proxy",
+    "source": "https://mlcommons.org/benchmarks/inference-datacenter/",
+    "note": "Full MLPerf requires datacenter GPU. Proxy: TTFT + throughput on CPU distilbert.",
+    "ttft_ms": {
+      "p50": 34.5,
+      "p99": 34.5,
+      "avg": 33.26
+    },
+    "throughput_samples_per_sec": 30.1,
+    "scenario": "SingleStream (CPU)",
+    "status": "PASS"
+  }
+}

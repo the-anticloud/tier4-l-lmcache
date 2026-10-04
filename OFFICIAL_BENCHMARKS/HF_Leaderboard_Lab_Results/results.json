@@ -1,0 +1,67 @@
+{
+  "benchmark": "HF_Leaderboard_Lab_Results",
+  "project": "L_LMCACHE",
+  "tier": "TIER_4_INFERENCE_AGENTS",
+  "slug": "LMCache/LMCache",
+  "commit": "0f166d0bcf5e",
+  "run_timestamp": "2026-09-30T15:07:07.146295+00:00",
+  "isolation": {
+    "environment": "local",
+    "model": "distilbert-base-uncased",
+    "hf_model_load_time_sec": 4.42,
+    "platform": "win32",
+    "python": "3.12.10"
+  },
+  "results": {
+    "framework": "HuggingFace Open LLM Leaderboard (proxy via distilbert-base-uncased)",
+    "source": "https://huggingface.co/docs/leaderboards/en/open_llm_leaderboard/archive",
+    "model_used": "distilbert-base-uncased",
+    "note": "Full MMLU/HellaSwag/TruthfulQA/ARC/Winogrande/GSM8K require GPU. Proxy: inference latency.",
+    "samples_run": 5,
+    "latency_ms": {
+      "avg": 51.12,
+      "min": 47.07,
+      "max": 59.0,
+      "all": [
+        59.0,
+        51.01,
+        47.07,
+        49.0,
+        49.52
+      ]
+    },
+    "status": "PASS",
+    "tokenization": {
+      "model": "distilbert-base-uncased",
+      "input_text": "L_LMCACHE (LMCache/LMCache) \u2014 2610 files, 479768 source lines, licence Apache-2.0, primary language ['Python']",
+      "token_count": 43,
+      "tokens_preview": [
+        "[CLS]",
+        "l",
+        "_",
+        "l",
+        "##mc",
+        "##ache",
+        "(",
+        "l",
+        "##mc",
+        "##ache",
+        "/",
+        "l",
+        "##mc",
+        "##ache",
+        ")",
+        "\u2014",
+        "261",
+        "##0",
+        "files",
+        ","
+      ],
+      "tokenization_latency_ms": 0.0,
+      "classification_label": "LABEL_0",
+      "classification_score": 0.5878,
+      "classification_latency_ms": 76.96,
+      "status": "PASS"
+    }
+  }
+}

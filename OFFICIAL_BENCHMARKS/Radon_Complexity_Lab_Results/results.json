@@ -1,0 +1,20 @@
+{
+  "benchmark": "Radon_Complexity_Lab_Results",
+  "project": "L_LMCACHE",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://radon.readthedocs.io/",
+  "results": {
+    "framework": "Radon \u2014 Cyclomatic Complexity & Maintainability Index",
+    "source": "https://radon.readthedocs.io/",
+    "files_analyzed": 10,
+    "average_complexity": {
+      "grade": "A",
+      "score": 2.3333333333333335
+    },
+    "complexity_grade": "A",
+    "complexity_score": 2.3333333333333335,
+    "status": "PASS",
+    "raw_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_LMCACHE\\UPSTREAM\\setup.py\n    F 29:0 _read_requirements - A (5)\n    F 40:0 _load_proto_generator - A (3)\n    C 62:0 _BuildPyWithGrpcStubs - A (3)\n    M 65:4 _BuildPyWithGrpcStubs.run - A (2)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_LMCACHE\\UPSTREAM\\lmcache\\banner.py\n    F 66:0 _render_banner - B (8)\n    F 104:0 print_banner_once - A (3)\n    F 61:0 _banner_disabled - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_LMCACHE\\UPSTREAM\\lmcache\\connections.py\n    M 28:4 HTTPConnection.get_sync_client - A (3)\n    M 36:4 HTTPConnection.get_async_client - A (3)\n    C 17:0 HTTPConnection - A (2)\n    M 42:4 HTTPConnection._validate_http_url - A (2)\n    M 53:4 HTTPConnection.get_response - A (2)\n    M 73:4 HTTPConnection.get_async_response - A (2)\n    M 138:4 HTTPConnection.download_file - A (2)\n    M 155:4 HTTPConnection.async_download_file - A (2)\n    M 20:4 HTTPConnection.__init__ - A (1)\n    M 50:4 HTTPConnection._headers - A (1)\n    M 87:4 HTTPConnection.get_bytes - A (1)\n    M 93:4 HTTPConnection.async_get_bytes - A (1)\n    M 104:4 HTTPConnection.get_text - A (1)\n    M 110:4 HTTPConnection.async_get_text - A (1)\n    M 121:4 HTTPConnection.get_json - A (1)\n    M 127:4 HTTPConnection.async_get_json - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_LMCACHE\\UPSTREAM\\lmcache\\logging.py\n    C 17:0 CustomFormatter - A (3)\n    F 66:0 init_logger - A (2)\n    M 33:4 CustomFormatter._",
+    "mi_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_LMCACHE\\UPSTREAM\\setup.py - A (65.57)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_LMCACHE\\UPSTREAM\\lmcache\\banner.py - A (75.87)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_LMCACHE\\UPSTREAM\\lmcache\\connections.py - A (56.67)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_LMCACHE\\UPSTREAM\\lmcache\\logging.py - A (85.90)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_LMCACHE\\UPSTREAM\\lmc"
+  }
+}

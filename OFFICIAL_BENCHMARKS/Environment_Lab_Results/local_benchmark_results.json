@@ -1,0 +1,16 @@
+{
+  "project": "L_LMCACHE",
+  "tier": "TIER_4_INFERENCE_AGENTS",
+  "timestamp": "2026-10-01",
+  "benchmark_type": "local_static",
+  "bandit_high": 0,
+  "bandit_medium": 0,
+  "bandit_status": "pass",
+  "radon_cc_grade": "3.114743745445713",
+  "radon_cc_score": null,
+  "radon_mi_avg": null,
+  "python_files": 1412,
+  "total_files": 2948,
+  "python_loc": 54397,
+  "elapsed_s": 109.08
+}
